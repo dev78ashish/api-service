@@ -18,7 +18,7 @@ Make sure you have the following installed:
 
 2. Navigate to the project directory:
 ```shell
- cd bank-branch-api```
+ cd bank-branch-api
 
 4. Install the dependencies:
 ```npm install```
