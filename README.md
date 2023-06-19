@@ -17,7 +17,7 @@ Make sure you have the following installed:
    git clone https://github.com/your-username/bank-branch-api.git
 
 2. Navigate to the project directory:
-```cd bank-branch-api```
+```shell cd bank-branch-api```
 
 3. Install the dependencies:
 ```npm install```
