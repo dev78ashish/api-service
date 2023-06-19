@@ -42,7 +42,7 @@ The server will respond with the requested data in JSON format.
 ## Example
 Here's an example of how to retrieve the bank list using JavaScript's fetch:
 
-
+   ```shell
 // Retrieve bank lists
 fetch('http://localhost:3000/banks')
   .then(response => response.json())
@@ -54,5 +54,4 @@ fetch('http://localhost:3000/banks')
   });
 
 ## Bank Data
-
-The bank data is stored in the bankData.json file. You can modify this file to add, remove, or update bank and branch information. The file follows the JSON format and contains an array of bank objects, where each object represents a branch with properties such as ID, bank name, branch name, address, city, and country.
+** The bank data is stored in the bankData.json file. You can modify this file to add, remove, or update bank and branch information. The file follows the JSON format and contains an array of bank objects, where each object represents a branch with properties such as ID, bank name, branch name, address, city, and country. **
