@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "bank": "Canara Bank",
+      "branch": "123",
+      "address": "123",
+      "city": "Agra",
+      "country": "INDIA"
+    },
+    {
+      "id": 2,
+      "bank": "SBI Bank",
+      "branch": "456",
+      "address": "456",
+      "city": "Delhi",
+      "country": "INDIA"
+    },
+    {
+      "id": 3,
+      "bank": "PNB",
+      "branch": "789",
+      "address": "789",
+      "city": "Jaipur",
+      "country": "INDIA"
+    }
+  ]
+  
