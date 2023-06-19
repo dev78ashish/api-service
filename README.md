@@ -58,3 +58,7 @@ fetch('http://localhost:3000/banks')
   
 ## Bank Data
 The bank data is stored in the bankData.json file. You can modify this file to add, remove, or update bank and branch information. The file follows the JSON format and contains an array of bank objects, where each object represents a branch with properties such as ID, bank name, branch name, address, city, and country.
+
+## Time Taken
+It took me 2-3 hours to complete this task.
+
