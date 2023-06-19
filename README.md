@@ -29,7 +29,7 @@ Make sure you have the following installed:
 
 The server will start running on port 3000 by default.
 
-3. Retrieve the list of banks and branch details:
+2. Retrieve the list of banks and branch details:
 You can use any HTTP client or browser to make GET requests to the following endpoints:
 
 Get the list of banks:
