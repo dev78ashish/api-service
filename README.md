@@ -1,15 +1,15 @@
-#Bank Branch API
+# Bank Branch API
 
 This is a simple Node.js API that provides endpoints to retrieve a list of banks and branch details. It uses the HTTP module and file system module (`fs`) to read bank data from a JSON file and serves the data over HTTP.
 
-##Prerequisites
+## Prerequisites
 
 Make sure you have the following installed:
 
 - Node.js
 - npm (Node Package Manager)
 
-##Installation
+## Installation
 
 1. Clone the repository:
 
@@ -22,7 +22,7 @@ cd bank-branch-api
 3. Install the dependencies:
 npm install
 
-##Usage
+## Usage
 
 1. Start the server:
 node index.js
@@ -39,11 +39,10 @@ GET http://localhost:3000/branches/:branchId
 Replace :branchId with the ID of the desired branch.
 The server will respond with the requested data in JSON format.
 
-##Example
+## Example
 Here's an example of how to retrieve the bank list using JavaScript's fetch:
 
-javascript
-Copy code
+
 // Retrieve bank lists
 fetch('http://localhost:3000/banks')
   .then(response => response.json())
@@ -54,5 +53,6 @@ fetch('http://localhost:3000/banks')
     console.error(error);
   });
 
-##Bank Data
+## Bank Data
+
 The bank data is stored in the bankData.json file. You can modify this file to add, remove, or update bank and branch information. The file follows the JSON format and contains an array of bank objects, where each object represents a branch with properties such as ID, bank name, branch name, address, city, and country.
